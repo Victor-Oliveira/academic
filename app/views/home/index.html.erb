@@ -1,0 +1,9 @@
+<h1>Academic Manager</h1>
+
+<% if current_user %>
+
+		<%= link_to "Courses", courses_path %>
+
+<% else %>
+	<h2><p>Welcome to the Academic Manager</p></h2>
+<% end %>
